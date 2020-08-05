@@ -1,0 +1,63 @@
+@import "../../styles/variables";
+
+.H1,
+.H2,
+.H3,
+.H4,
+.H5,
+p {
+  margin: 0;
+  color: white;
+  text-align: inherit;
+}
+
+.P {
+  font-family: $Montserrat;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 24px;
+
+  &Small {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+  }
+}
+
+.H1 {
+  font-family: $RedRose;
+  font-weight: 100;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+.H2 {
+  font-family: $RedRose;
+  font-weight: 300;
+  margin-bottom: 16px;
+  font-size: 26px;
+}
+
+.H3 {
+  font-family: $RedRose;
+  font-weight: 400;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.H4 {
+  font-family: $RedRose;
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.H5 {
+  font-family: $Montserrat;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

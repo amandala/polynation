@@ -1,0 +1,40 @@
+@import "../styles/variables";
+
+.Page {
+  background-color: $steel-grey;
+}
+
+.Wrapper {
+  width: 100%;
+  background-image: url("/bees.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 43px 20px 15px;
+}
+
+.Header {
+  text-align: center;
+}
+
+.Date {
+  color: $steel-grey;
+  font-weight: 400;
+}
+
+.ExternalLink {
+  color: $white;
+  text-decoration: none;
+  font-family: $Montserrat;
+  font-weight: 100;
+
+  &:hover,
+  &:visited {
+    color: $ziggurat-blue;
+  }
+}
