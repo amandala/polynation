@@ -5,8 +5,8 @@ $bermuda-grey: #7487a5;
 $ziggurat-blue: #b5d3db;
 $opium-pink: #8f6771;
 
-$Montserrat: "Montserrat", sans-serif;
-$RedRose: "Red Rose", cursive;
+$Montserrat: "Montserrat", "Arial", sans-serif;
+$RedRose: "Red Rose", "Helvetica", "sans-serif";
 
 //for-phone-only
 @mixin small {
