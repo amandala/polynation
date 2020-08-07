@@ -41,7 +41,7 @@ const Home = () => {
       <div className={styles.Wrapper}>
         <div className={styles.Header}>
           <H2 className={styles.Date}>August 22 & 23</H2>
-          <H1>Poly Nation</H1>
+          <img className={styles.PolyNation} src="/pn-wordmark.png" />
         </div>
         <div className={styles.MainWrapper}></div>
         <footer className={styles.Footer}>
